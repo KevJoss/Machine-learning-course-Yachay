@@ -1,0 +1,2 @@
+system,models,weights,accuracy,macro_precision,macro_recall,macro_f1,weighted_f1
+Uniform Soft Voting,M1 + M2 + M3 + M4 + M5,"{'M1': 0.2, 'M2': 0.2, 'M3': 0.2, 'M4': 0.2, 'M5': 0.2}",0.7883275261324042,0.7922071364104789,0.7910997732426303,0.7893105608136199,0.7882479717522749

@@ -1,0 +1,2 @@
+configuration,models,weights,accuracy,macro_precision,macro_recall,macro_f1,weighted_f1,delta_macro_f1,system
+All,M1 + M2 + M3 + M4 + M5,"{'M1': 0.05, 'M2': 0.1, 'M3': 0.4, 'M4': 0.15, 'M5': 0.3}",0.8118466898954704,0.8153710966954638,0.8140589569160998,0.8132477355872457,0.8123137628882394,0.0,Weighted Soft Voting

@@ -1,0 +1,2 @@
+model,classifier,representation,split,accuracy,macro_precision,macro_recall,macro_f1,weighted_f1
+M4,CNN 2D (from scratch),"Log-Mel (16 kHz, 3 s, 64 mels)",val,0.6986062717770035,0.7004785554868761,0.7002551020408164,0.6997638310483931,0.6988006314562406

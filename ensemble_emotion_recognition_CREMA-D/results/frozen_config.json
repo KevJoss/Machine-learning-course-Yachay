@@ -1,0 +1,21 @@
+{
+  "strategy": "weighted_soft_voting",
+  "weights": {
+    "M3": 0.55,
+    "M5": 0.45
+  },
+  "selection_metric": "macro_f1 (validation)",
+  "justification": "Production efficiency. M3 (WavLM + logistic regression) and M5 (Whisper + MLP) are the best 2-model combination on Validation (Macro F1 0.8026). The best 3-model ensemble (adding M4) reaches 0.8121 and all 5 models 0.8132: about 1 point more, comparable to the sampling noise of 1148 Validation files. Each extra model is a separate pipeline to deploy and maintain (M4 needs its own Log-Mel preprocessing, normalization statistics, temperature and PyTorch checkpoint) and adds inference time, so the group chose two models and accepted the ~1-point cost. Leave-One-Model-Out shows that M1 and M2 contribute less than 0.1 point. Both chosen models rely on different pretrained representations (self-supervised WavLM and supervised Whisper).",
+  "models": [
+    "M3",
+    "M5"
+  ],
+  "val_metrics": {
+    "accuracy": 0.8014,
+    "macro_precision": 0.8048,
+    "macro_recall": 0.8033,
+    "macro_f1": 0.8026,
+    "weighted_f1": 0.8018
+  },
+  "frozen_at": "2026-10-05T23:43:45"
+}

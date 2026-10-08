@@ -6,7 +6,6 @@ data/
 *.npy
 
 emsemble_learning_CREMA-D/
-ensemble_emotion_recognition_CREMA-D/
 federated_and_centralized_learning_approach/
 sentiment_classification_with_CREMA-D/
 Feature_importance_analysis/
