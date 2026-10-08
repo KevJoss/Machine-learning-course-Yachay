@@ -1,0 +1,12 @@
+numpy
+pandas
+matplotlib
+scikit-learn
+joblib
+tqdm
+librosa
+soundfile
+opensmile
+torch
+transformers
+jupyter

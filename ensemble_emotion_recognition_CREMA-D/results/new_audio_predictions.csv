@@ -1,0 +1,6 @@
+file,duration_s,mode,speech_windows,final_emotion,confidence,prob_ANG,prob_DIS,prob_FEA,prob_HAP,prob_NEU,prob_SAD
+35_horas_del_dia.mp3,15.1,sliding windows,10,Fear,0.483,0.038,0.069,0.483,0.268,0.089,0.052
+cuidado_me_vas_a_tocar.mp3,9.5,sliding windows,6,Disgust,0.517,0.093,0.517,0.034,0.286,0.031,0.038
+me_la_saco_jose_delgado.mp3,17.3,sliding windows,11,Happy,0.405,0.258,0.116,0.141,0.405,0.057,0.023
+psicologicamente_quebrada_la_man.mp3,6.1,sliding windows,4,Fear,0.416,0.127,0.242,0.416,0.198,0.0,0.017
+Si_cultivas_pollos_por_ejemplo.mp3,15.0,sliding windows,10,Fear,0.588,0.162,0.03,0.588,0.2,0.008,0.012

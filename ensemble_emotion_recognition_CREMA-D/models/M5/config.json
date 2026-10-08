@@ -1,0 +1,14 @@
+{
+  "whisper": "openai/whisper-small",
+  "representation": "mean of the 13 encoder outputs",
+  "pooling": "mean over real (non-padding) frames",
+  "classifier": "MLP(256) alpha=1.0",
+  "selection_metric": "macro_f1 (validation)",
+  "val_metrics": {
+    "accuracy": 0.7805,
+    "macro_precision": 0.7851,
+    "macro_recall": 0.7819,
+    "macro_f1": 0.7825,
+    "weighted_f1": 0.7817
+  }
+}
