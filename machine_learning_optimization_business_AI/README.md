@@ -42,7 +42,7 @@ pip install optuna==5.0.0 jupyter
 jupyter notebook telco_churn_optimization_xai.ipynb
 ```
 
-**Deployed app:** _link to be added after deployment on Streamlit Community Cloud._
+**Deployed app:** https://ai-business-optimization.streamlit.app
 
 ## Methodology
 
